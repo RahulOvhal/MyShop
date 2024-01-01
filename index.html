@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Shop</title>
+
+    <!-- Favcion files  -->
+
+    <link rel="shortut icon" href="Images/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="57x57" href="Images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="Images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="Images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="Images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="Images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="Images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="Images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="Images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="Images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="Images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="Images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Themefi Icons CSS  -->
+    <link rel="stylesheet" href="Images/themify-icons/themify-icons.css">
+
+    <!-- BootStrap CSS  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <!-- main CSS  -->
+        <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Responsive CSS  -->
+    <link rel="stylesheet" href="./css/responsive.css">
+
+
+
+
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+    
+    <!-- ====================   Navigation Section  ====================  -->
+
+    <section id="header">
+        <nav class="navbar navbar-expand-lg bg-white fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="Images/logo.png" class="img-fluid logo" loading="lazy">
+            </a>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="ti-align-justify navbar-toggler-icon "></span>
+                <!-- <span class="navbar-toggler-icon"></span> -->
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria- current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#offers">Sale</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#products">Products</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#special">Special</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </section>
+
+    <!-- ====================   Home Section  ====================  -->
+
+    <section id="home" class="home pt-5  overflow-hidden">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="home-banner home-banner-1">
+                    <div class="home-banner-text">
+                        <h1><span style="color: var(--text-danger);">My</span>-<span style="color: rgb(19, 89, 195);">Shop</span></h1>
+                        <h2>E-commerce Platform</h2>
+                        <a href="#products" class="btn btn-danger text-uppercase mt-4">Our Products</a>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="home-banner home-banner-2">
+                    <div class="home-banner-text">
+                        <h1>Men</h1>
+                        <h2>Exclusive mens Fasion</h2>
+                        <a href="#products" class="btn btn-danger text-uppercase mt-4">Our Products</a>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="home-banner home-banner-3">
+                    <div class="home-banner-text">
+                        <h1>Get Exclusive Offers</h1>
+                        <h2>on Mens Wear</h2>
+                        <a href="#products" class="btn btn-danger text-uppercase mt-4">Our Products</a>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true">
+                <span class="ti-angle-left slider-icon"></span>
+              </span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true">
+                <span class="ti-angle-right slider-icon"></span>
+              </span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="offers" id="offers">
+            <div class="container">
+                <div class="row">
+                    <!-- offer Box one  -->
+                    <div class="col-sm-12  mb-sm-2 mb-4 col-md-4 col-lg-4 mb-lg-0 mb-md-0 ">
+                        <a href="#">
+                            <div class="offer-box text-center position-relative">
+                                <div class="offer-inner">
+                                    <div class="offer-image position-relative overflow-hidden">
+                                        <img src="./Images/products/p1.jpg" alt="offers" class="img-fluid">
+                                        <div class="offer-overlay"></div>
+                                    </div>
+                                    <div class="offer-info">
+                                        <div class="offer-info-inner">
+                                            <p class="heading-bigger text-capitalize">Sale 40%</p>
+                                            <p class="offer-title-1 text-uppercase font-weight-bold">Don't Miss This Chance</p>
+                                            <button type="button" class="btn btn-outline-danger text-uppercase mt-4">Shop Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- offer Box Two  -->
+                    <div class="col-sm-12 mb-sm-2 mb-4 col-md-4 col-lg-4 mb-lg-0 d-flex flex-column justify-content-between">
+                        <a href="#">
+                            <div class="offer-box text-center position-relative mb-4 mb-sm-0 mb-lg-0">
+                                <div class="offer-inner">
+                                    <div class="offer-image position-relative overflow-hidden">
+                                        <img src="./Images/products/p5.jpg" alt="offers" class="img-fluid">
+                                        <div class="offer-overlay"></div>
+                                    </div>
+                                    <div class="offer-info">
+                                        <div class="offer-info-inner">
+                                            <p class="heading-bigger text-capitalize">Sale 50%</p>
+                                            <p class="offer-title-1 text-uppercase font-weight-bold">Don't Miss This Chance</p>
+                                            <button type="button" class="btn btn-outline-danger text-uppercase mt-4">Shop Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#" class="mt-2">
+                            <div class="offer-box text-center position-relative">
+                                <div class="offer-inner">
+                                    <div class="offer-image position-relative overflow-hidden">
+                                        <img src="./Images/products/p7.jpg" alt="offers" class="img-fluid">
+                                        <div class="offer-overlay"></div>
+                                    </div>
+                                    <div class="offer-info">
+                                        <div class="offer-info-inner">
+                                            <p class="heading-bigger text-capitalize">Sale 70%</p>
+                                            <p class="offer-title-1 text-uppercase font-weight-bold">Don't Miss This Chance</p>
+                                            <button type="button" class="btn btn-outline-danger text-uppercase mt-4">Shop Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- offer Box Three  -->
+
+                    <div class="col-sm-12  mb-2 col-md-4 mb-sm-0 col-lg-4 mb-lg-0 mb-md-0">
+                        <a href="#">
+                            <div class="offer-box text-center position-relative">
+                                <div class="offer-inner">
+                                    <div class="offer-image position-relative overflow-hidden">
+                                        <img src="./Images/products/p15.jpg" alt="offers" class="img-fluid">
+                                        <div class="offer-overlay"></div>
+                                    </div>
+                                    <div class="offer-info">
+                                        <div class="offer-info-inner">
+                                            <p class="heading-bigger text-capitalize">Sale 40%</p>
+                                            <p class="offer-title-1 text-uppercase font-weight-bold">Don't Miss This Chance</p>
+                                            <button type="button" class="btn btn-outline-danger text-uppercase mt-4">Shop Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================  Featured Product  Section  ====================  -->
+
+    <section id="products" class="products">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="headline text-center mb-5">
+                        <h2 class="pb-3 position-relative d-inline-block">FEATURED PRODUCTS</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Card One  -->
+                <div class="col-sm-6 col-lg-4 col-12">
+                    <a href="#" class="d-block text-center mb-4">
+                        <div class="product-list">
+                            <div class="product-image position-relative">
+                                <span class="sale">Sale</span>
+                                <img src="./Images/products/p1.jpg" alt="products" class="img-fluid product-image-first" loading="lazy">
+                                <img src="./Images/products/p2.jpg" alt="products" class="img-fluid product-image-secondary" loading="lazy">
+                            </div>
+                            <div class="product-name pt-3">
+                                <h3 class="text-capitalize">
+                                    Mens Full-Sleves Formal light Blue Shirt
+                                </h3>
+                                <p class="mb-0 amount">$250 <del>$400</del></p>
+                                <div class="py-1">
+                                    <span class="ti-star active"></span>
+                                    <span class="ti-star active"></span>
+                                    <span class="ti-star active"></span>
+                                    <span class="ti-star active"></span>
+                                    <span class="ti-star"></span>
+                                </div>
+                                <button type="button" class="add_to_Card">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Card Two  -->
+                <div class="col-sm-6 col-lg-4 col-12">
+                    <a href="#" class="d-block text-center mb-4">
+                        <div class="product-list">
+                            <div class="product-image position-relative">
+                                <!-- <span class="sale">Sale</span> -->
+                                <img src="./Images/products/p3.jpg" alt="products" class="img-fluid product-image-first" loading="lazy">
+                                <img src="./Images/products/p4.jpg" alt="products" class="img-fluid product-image-secondary" loading="lazy">
+                            </div>
+                            <div class="product-name pt-3">
+                                <h3 class="text-capitalize">
+                                    Mens Full-Sleves Formal light Blue Shirt
+                                </h3>
+                                <p class="mb-0 amount">$270 <del>$480</del></p>
+                                <div class="py-1">
+                                    <span class="ti-star active"></span>
+                                    <span class="ti-star active"></span>
+                                    <span class="ti-star active"></span>
+                                    <span class="ti-star "></span>
+                                    <span class="ti-star"></span>
+                                </div>
+                                <button type="button" class="add_to_Card">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                 <!-- Card Three  -->
+                 <div class="col-sm-6 col-lg-4 col-12">
+                    <a href="#" class="d-block text-center mb-4">
+                        <div class="product-list">
+                            <div class="product-image position-relative">
+                                <span class="sale">Sale</span>
+                                <img src="./Images/products/p5.jpg" alt="products" class="img-fluid product-image-first" loading="lazy">
+                                <img src="./Images/products/p6.jpg" alt="products" class="img-fluid product-image-secondary" loading="lazy">
+                            </div>
+                            <div class="product-name pt-3">
+                                <h3 class="text-capitalize">
+                                    Mens Full-Sleves Formal light Blue Shirt
+                                </h3>
+                                <p class="mb-0 amount">$220 <del>$350</del></p>
+                                <div class="py-1">
+                                    <span class="ti-star active"></span>
+                                    <span class="ti-star active"></span>
+                                    <span class="ti-star active"></span>
+                                    <span class="ti-star "></span>
+                                    <span class="ti-star"></span>
+                                </div>
+                                <button type="button" class="add_to_Card">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                 <!-- Card Four  -->
+                 <div class="col-sm-6 col-lg-4 col-12">
+                    <a href="#" class="d-block text-center mb-4">
+                        <div class="product-list">
+                            <div class="product-image position-relative">
+                                <!-- <span class="sale">Sale</span> -->
+                                <img src="./Images/products/p7.jpg" alt="products" class="img-fluid product-image-first" loading="lazy">
+                                <img src="./Images/products/p8.jpg" alt="products" class="img-fluid product-image-secondary" loading="lazy">
+                            </div>
+                            <div class="product-name pt-3">
+                                <h3 class="text-capitalize">
+                                    Mens Full-Sleves Formal light Blue Shirt
+                                </h3>
+                                <p class="mb-0 amount">$300 <del>$500</del></p>
+                                <div class="py-1">
+                                    <span class="ti-star active"></span>
+                                    <span class="ti-star active"></span>
+                                    <span class="ti-star active"></span>
+                                    <span class="ti-star active"></span>
+                                    <span class="ti-star"></span>
+                                </div>
+                                <button type="button" class="add_to_Card">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                 <!-- Card Five  -->
+                 <div class="col-sm-6 col-lg-4 col-12">
+                    <a href="#" class="d-block text-center mb-4">
+                        <div class="product-list">
+                            <div class="product-image position-relative">
+                                <span class="sale">Sale</span>
+                                <img src="./Images/products/p9.jpg" alt="products" class="img-fluid product-image-first" loading="lazy">
+                                <img src="./Images/products/p10.jpg" alt="products" class="img-fluid product-image-secondary" loading="lazy">
+                            </div>
+                            <div class="product-name pt-3">
+                                <h3 class="text-capitalize">
+                                    Mens Full-Sleves Formal light Blue Shirt
+                                </h3>
+                                <p class="mb-0 amount">$250 <del>$450</del></p>
+                                <div class="py-1">
+                                    <span class="ti-star active"></span>
+                                    <span class="ti-star active"></span>
+                                    <span class="ti-star active"></span>
+                                    <span class="ti-star active"></span>
+                                    <span class="ti-star"></span>
+                                </div>
+                                <button type="button" class="add_to_Card">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                 <!-- Card Six  -->
+                 <div class="col-sm-6 col-lg-4 col-12">
+                    <a href="#" class="d-block text-center mb-4">
+                        <div class="product-list">
+                            <div class="product-image position-relative">
+                                <span class="sale">Sale</span>
+                                <img src="./Images/products/p11.jpg" alt="products" class="img-fluid product-image-first" loading="lazy">
+                                <img src="./Images/products/p12.jpg" alt="products" class="img-fluid product-image-secondary" loading="lazy">
+                            </div>
+                            <div class="product-name pt-3">
+                                <h3 class="text-capitalize">
+                                    Mens Full-Sleves Formal light Blue Shirt
+                                </h3>
+                                <p class="mb-0 amount">$350 <del>$550</del></p>
+                                <div class="py-1">
+                                    <span class="ti-star active"></span>
+                                    <span class="ti-star active"></span>
+                                    <span class="ti-star active"></span>
+                                    <span class="ti-star "></span>
+                                    <span class="ti-star"></span>
+                                </div>
+                                <button type="button" class="add_to_Card">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+    <!-- ====================  Upto 75% off  Section  ====================  -->
+            <div class="overflow-hidden my-5">
+                <div class="row">
+                    <div class="col-sm-12 up_to_off">
+                        <img src="./Images/slider/Offerimg.jpg" alt="highoffer" class="img-fluid w-100" loading="lazy">
+                        <div class="up_to_content">
+                            <h2>UP To 75% OFF</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </section>
+
+    <!-- ====================  Special  Section  ====================  -->
+
+    <section class="special" id="special">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                   <div class="headline text-center mb-5">
+                    <h2 class="pb-3 position-relative d-inline-block">SPECIAL OFFER</h2>
+                   </div> 
+                </div>
+
+                <div class="col-sm-12 col-lg-7 text-center text-lg-start">
+                    <div class="countdown-container">
+                        <h2 class="text-uppercase">
+                            Smart Mens outfit
+                        </h2>
+                        <p class="my-4">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero fuga reprehenderit repellat, eligendi ad quae a veritatis magni at. Nam accusamus doloremque nesciunt totam eveniet?
+                        </p>
+                        <ul class="list-unstyled countdown-counter"> 
+                            <li><span class="fs-1 d-block" id="days">00</span>Days</li>
+                            <li><span class="fs-1 d-block" id="hours">00</span>Hr</li>
+                            <li><span class="fs-1 d-block" id="min">00</span>Min</li>
+                            <li><span class="fs-1 d-block" id="sec">00</span>Sec</li>
+                        </ul>
+                        <span class="coutdown-price h3 d-block mb-4">$420.00 <del>$670.00</del></span>
+                        <button type="button" class="btn btn-danger btn-special">ADD TO CART</button>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-12 col-lg-5">
+                    <div class="special-img position-relative">
+                        <span class="sale">Sale</span>
+                        <img src="./Images/products/1.avif" alt="" class="img-fluid" loading="lazy">
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ====================  Contact  Section  ====================  -->
+
+    <section id="contact">
+        <div class="contact">
+            <div class="container">
+                <div class="mb-5 text-center">
+                    <h5>Let's Start a Conversation !</h5>
+                    <h2 class="fw-bold"> Contact Us</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-5 col-md-5">
+                        <h4 class="fw-bold">Contact Info</h4>
+                        <ul class="info list-unstyled">
+                            <li class="d-flex align-item-center">
+                                <span class="pe-2 pb-2 ti-location-pin fs-5"></span>
+                                <p><a href="">Vadodara, Gujarat India</a></p>
+                            </li>
+                            <li class="d-flex align-item-center">
+                                <span class="pe-3 ti-mobile fs-5"></span>
+                                <p><a href="">+91 999-999-9999</a></p>
+                            </li>
+                            <li class="d-flex align-item-center">
+                                <span class="pe-3 ti-envelope fs-5"></span>
+                                <p><a href="">info@myshop.in</a></p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-7 col-md-7 pt-lg-0 pt-md-0 pt-4">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="name" id="name" placeholder="Your Name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" name="email" id="email" placeholder="Enter your Email id">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <textarea name="message" id="message" cols="30" rows="4" class="textare" placeholder="Enter your message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                        
+                                    <button type="button" class="btn btn-danger"><span class="ti-share-alt pe-2 fs-5"></span>Send Message</button>
+                                    
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ====================  Footer  Section  ====================  -->
+
+    <footer>
+        <div class="p-3 copyright">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-6 p-1 p-lg-3 text-center text-lg-start">
+                       <p>Copyright @2023 <a href="#"> My-Shop </a>All Rights Reserved</p> 
+                    </div>
+                    <div class="col-12 col-lg-6 p-1 p-lg-3 text-center text-lg-end">
+                       <p>Designed by <a href="#" target="_blank">Rahul Ovhal</a></p> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ====================  Scroll-Up  Section  ====================  -->
+
+    <div id="scrollUp" title="Scroll To Top">
+        <a href="#home"><span class="ti-arrow-up fs-4 text-white"></span>
+        </a>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Bootstrap JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- main.js  -->
+    <script src="./Js/main.js"></script>
+</body>
+</html>
